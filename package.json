@@ -1,0 +1,50 @@
+{
+  "name": "@kodio.io/medusa-js-fetch",
+  "version": "0.2.0",
+  "description": "A fetch API based version of the Medusa JS Client",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts",
+    "prepare": "cross-env NODE_ENV=production yarn run build",
+    "test": "jest --passWithNoTests"
+  },
+  "author": "Kodio",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "@kodio.io/medusa-js-fetch": "^0.1.0",
+    "cross-env": "^5.2.1",
+    "qs": "^6.10.3",
+    "uuid": "^9.0.0"
+  },
+  "peerDependencies": {
+    "@medusajs/medusa": "^1.17.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QODIO/medusa-js-fetch"
+  },
+  "devDependencies": {
+    "@medusajs/medusa": "^1.17.2",
+    "@types/uuid": "^9.0.0",
+    "jest": "^27.4.7",
+    "ts-jest": "^27.1.5",
+    "tsup": "6.7.0",
+    "typescript": "^4.9.5"
+  }
+}
