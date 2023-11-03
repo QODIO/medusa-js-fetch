@@ -1,6 +1,6 @@
 {
   "name": "@kodio.io/medusa-js-fetch",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A fetch API based version of the Medusa JS Client",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

@@ -1,6 +1,6 @@
 # Medusa JS Client based on Fetch API
 
-[![Version](https://img.shields.io/npm/v/stripe.svg)](https://www.npmjs.org/package/@kodio.io/medusa-js-fetch)
+[![Version](https://img.shields.io/npm/v/@kodio.io/medusa-js-fetch.svg)](https://www.npmjs.org/package/@kodio.io/medusa-js-fetch)
 
 The Medusa JS Client provides easy access to the Medusa API from a client written in Typescript.
 
