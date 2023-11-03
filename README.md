@@ -14,3 +14,6 @@ Using fetch allows you to use the client on the Edge.
 In most cases, this client should be a drop-in replacement for the Axios based one. Beware that this client is not considered stable, and you may experience some issues.
 
 To learn more about the API endpoints that this client allows you to access check out the [docs for the official JS Client](https://docs.medusajs.com/api/store).
+
+## Known Issues
+This client does currently not support retries.
